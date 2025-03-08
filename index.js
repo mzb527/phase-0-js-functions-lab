@@ -18,7 +18,8 @@ function calculatetax(amount) {
     const reversed = word.split('').reverse().join('');
     return word === reversed;
   }
-  
+
+
   // Function 5: calculateDiscountedPrice
   function calculateDiscountedPrice(originalPrice, discountPercentage) {
     return originalPrice - (originalPrice * discountPercentage / 100
