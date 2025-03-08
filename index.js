@@ -12,7 +12,7 @@ function calculatetax(amount) {
   function findMaximum(num1, num2) {
     return num1 > num2 ? num1 : num2;
   }
-  
+
   // Function 4: isPalindrome
   function isPalindrome(word) {
     const reversed = word.split('').reverse().join('');
